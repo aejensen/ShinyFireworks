@@ -12,5 +12,6 @@ Imports:
     R6,
     ggvis,
     shiny,
+    shinyWidgets,
     magrittr,
     gplots
