@@ -1,4 +1,11 @@
 server <- function(input, output, session) {
+  require(ShinyFireworks)
+  require(R6)
+  require(ggvis)
+  require(shiny)
+  require(magrittr)
+  require(gplots)
+
   size <- list(x = 400, y = 300)
   makeFrame <- shiny::reactiveTimer(200, session)
 
