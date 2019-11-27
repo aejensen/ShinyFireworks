@@ -1,5 +1,6 @@
 server <- function(input, output, session) {
   require(ShinyFireworks)
+  require(shinyWidgets)
   require(R6)
   require(ggvis)
   require(shiny)
