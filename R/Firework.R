@@ -23,9 +23,9 @@ Firework <- R6::R6Class("Firework",
   ),
 
   public = list(
-    gravity = NULL,        #gravity vector
-    rocketCol = NULL,      #color of the rocket
-    burstCols = NULL,      #vector of possible burst colors
+    gravity = NULL,    #gravity vector
+    rocketCol = NULL,  #color of the rocket
+    burstCols = NULL,  #vector of possible burst colors
 
     #Constructor
     initialize = function(x, yVel, nBurst) {

@@ -7,7 +7,7 @@ Particle <- R6::R6Class("Particle",
   ),
 
   public = list(
-    #Constructor
+    #Construct a particle
     initialize = function(loc, vel, col) {
       private$location <- loc
       private$velocity <- vel
