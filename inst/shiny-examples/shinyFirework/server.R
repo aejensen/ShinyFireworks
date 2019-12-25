@@ -17,6 +17,7 @@ server <- function(input, output, session) {
     makeFrame()
     fw$update()
     conf <- fw$getConfiguration()
+    #Reset when done exploding
     if(fw$isDone()) {
       fw$reset(x = runif(1, 100, 300), yVel = runif(1, 12, 16), nBurst = 25)
     }
