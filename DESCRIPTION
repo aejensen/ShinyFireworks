@@ -1,7 +1,7 @@
 Package: ShinyFireworks
 Type: Package
 Title: ShinyFireworks
-Version: 0.1
+Version: 0.2
 Author: Andreas Kryger Jensen <aeje@sund.ku.dk>
 Maintainer: Andreas Kryger Jensen <aeje@sund.ku.dk>
 Description: A holiday special straight out of Biostatistics, University of Copenhagen.

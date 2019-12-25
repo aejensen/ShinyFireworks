@@ -1,5 +1,5 @@
 # ShinyFireworks
-A shiny app showing some New Year's fireworks implemented using R6 classes
+A shiny app showing some New Year's fireworks implemented using R6 classes and Newtonian mechanics.
 
 The app can be seen online at: https://shiny.sund.ku.dk/czv146/fireworks/ 
 
